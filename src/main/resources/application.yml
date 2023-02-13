@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:test
+    username: admin
+    password: admin
+#  jezeli ustawimy tu profil dev to użyje application-dev.yml
+  profiles:
+    active: dev
